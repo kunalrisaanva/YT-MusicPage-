@@ -6,10 +6,7 @@ const PORT = 2000
 const app = express()
 
 
-
-
 app.use(express.static("public"));
-
 
 
 app.get("/",(req,res) => {
@@ -19,5 +16,4 @@ app.get("/",(req,res) => {
 
 
 
-
-app.listen(2000,() =>   `server is running on port ${PORT}`)
+app.listen(2000,() => console.log(`server is running on port ${PORT}`))
