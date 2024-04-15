@@ -5,13 +5,13 @@ let arr = [
         songName:"Less then zero",url:"./songs/Y2meta.app - The Weeknd - Less Than Zero (Official Lyric Video) (128 kbps).mp3",img:"./images/dawn fm - the weekend.jpeg"
     },
     {
-        songName:"StarBoy",url:"./songs/Y2meta.app - The Weeknd - Less Than Zero (Official Lyric Video) (128 kbps).mp3",img:"./images/_.jpeg"
+        songName:"StarBoy",url:"./songs/Starboy (Speed Up Reverb)-(PagalSongs.Com.IN).mp3",img:"./images/_.jpeg"
     },
     {
-        songName:"Pahle bhi main",url:"./songs/Y2meta.app - The Weeknd - Less Than Zero (Official Lyric Video) (128 kbps).mp3",img:"./images/Explore a captivating collection of high-definition animal movie wallpapers on Pinterest!.jpeg"
+        songName:"Pahle bhi main",url:"./songs/Pehle Bhi Main - Animal 128 Kbps.mp3",img:"./images/Explore a captivating collection of high-definition animal movie wallpapers on Pinterest!.jpeg"
     },
     {
-        songName:"After Hour",url:"./songs/Y2meta.app - The Weeknd - Less Than Zero (Official Lyric Video) (128 kbps).mp3",img:"./images/after hours - the weeknd poster.jpeg"
+        songName:"After Hour",url:"./songs/The_Weeknd_-_After_Hours.mp3",img:"./images/after hours - the weeknd poster.jpeg"
     },
 
 
@@ -20,7 +20,7 @@ let arr = [
 
 
 
-// function mainFuntion (){
+function mainFuntion (){
     let clutter = ""
 
     arr.forEach((data,index) => {
@@ -41,18 +41,20 @@ let arr = [
  <div class="border-t border-gray-600 w-[33rem] "></div> 
 
 `
-// console.log(data)
-})
-
-// }
-
-
-
-// mainFuntion()/
-
-
 
 document.querySelector('#all-song').innerHTML = clutter
+
+})
+
+}
+
+
+
+mainFuntion()
+
+
+
+
 // console.log(clutter)
 
 
