@@ -112,6 +112,5 @@ backward.addEventListener("click",function(val){
         selectedSong--
         mainFuntion()
         audio.play()
-
     }
 })
