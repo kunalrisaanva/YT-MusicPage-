@@ -5,7 +5,7 @@ let arr = [
         songName:"Less then zero",url:"./songs/Y2meta.app - The Weeknd - Less Than Zero (Official Lyric Video) (128 kbps).mp3",img:"./images/3.jpeg"
     },
     {
-        songName:"StarBoy",url:"./songs/Starboy (Speed Up Reverb)-(PagalSongs.Com.IN).mp3",img:"./images/_.jpeg"
+        songName:"StarBoy",url:"./songs/Starboy (Speed Up Reverb)-(PagalSongs.Com.IN).mp3",img:"./images/1.jpeg"
     },
     {
         songName:"Pahle bhi main",url:"./songs/Pehle Bhi Main - Animal 128 Kbps.mp3",img:"./images/4.jpeg"
