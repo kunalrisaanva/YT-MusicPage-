@@ -9,66 +9,89 @@
     <link rel="icon" type="image/x-icon" href="./icons8-youtube-music-48.png">
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.lg/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./stylesheets//style.css">
 </head>
 
 <body class="bg-zinc-900">
 
 
-    <div class="main-section main w-full h-full  text-white pt-6 flex  mt-12 px-[220px] ">
+    <div class="bg-zinc-900 flex min-h-screnn flex-col lg:flex lg:flex-row lg:pt-[6rem] lg:justify-center lg:gap-12 ">
 
-        <!-- left section -->
+        <!-- image section  -->
 
-        <div id="left" class="left-section bg-contain overflow-hidden object-cover bg-center  w-[580px] h-[540px] bg-zinc-200 rounded-sm 
-        bg-[url('./images/3.jpeg')]
-        "> 
-            <!-- <img  class=" w-full h-full object-cover  bg-[url('./images/Explore a captivating collection of high-definition animal movie wallpapers on Pinterest!.jpeg')]"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSipT8q97myKHj6D3n5uRdUO8o8Z9HkpD-zUX4OfnfbC_3QDpscBKI-KOIstcolnoZROcA&usqp=CAU"
-                alt=""> -->
 
+
+   
+
+
+
+        <div class="mx-auto pt-6 lg:mx-0 ">
+            <img id="left"
+                class="lg:h-[450px] h-[225px] bg-cover bg-no-repeat lg:pl-[4rem] lg:bg-cover lg:bg-no-repeat bg-[url('./images/3.jpeg')]"
+                src="https://encrypted-tbn0.gstatic.com/imagesmin-h-screen?      q=tbn:ANd9GcSipT8q97myKHj6D3n5uRdUO8o8Z9HkpD-zUX4OfnfbC_3QDpscBKI-KOIstcolnoZROcA&usqp=CAU"
+                alt="">
         </div>
-       
 
 
-        <!-- right section -->
-        <div class="right-section  px-[55px] w-6/12">
-            <span class="text-3xl text-semibold">All Songs</span>
+        <!-- song section  -->
 
-            <div class="border-t border-gray-600 mt-5 w-[33rem] "></div>
+
+        <div class="mt-10 px-4 lg:w-[35rem] lg:py-0">
+
+            <span class="text-white text-2xl italic font-medium pl-3 lg:text-4xl ">All Songs</span>
+
+            <div class="border-t border-gray-600 mt-3"></div>
 
 
             <div id="all-song">
+                <!-- <div class="song-left flex content-center items-center px-3 ">
+                <img class="img h-[62px]  w-13 overflow-hidden"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSipT8q97myKHj6D3n5uRdUO8o8Z9HkpD-zUX4OfnfbC_3QDpscBKI-KOIstcolnoZROcA&usqp=CAU"
+                    alt="song poster">
+                <h3 class=" song-name text-white text-1xl font-normal pl-6 whitespace-nowrap "> Die for you </h3> -->
+                <!-- <span class="text-white">2.23</span> -->
+                <!-- </div> -->
 
-    
+                <!-- <div class="border-t border-gray-600   my-3"></div> -->
 
-                <!-- <div class="song flex w-[33rem] content-center items-center py-3 px-2 hover:bg-sky-900 justify-between ">
-                       <div class="song-left flex content-center items-center">
-                            <img class="img h-[62px]  w-13 overflow-hidden"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSipT8q97myKHj6D3n5uRdUO8o8Z9HkpD-zUX4OfnfbC_3QDpscBKI-KOIstcolnoZROcA&usqp=CAU"
-                            alt="song poster">
-                           <h3 class=" song-name text-white text-1xl font-normal pl-6 whitespace-nowrap "> Die for you </h3>
-                       </div>
-                        <span class="text-white text-sm font-light    whitespace-nowrap  ">2:25</span>
-                    </div>
-    
-    
-                    <div class="border-t border-gray-600 w-[33rem] "></div> 
-  -->
-                
 
             </div>
-
         </div>
+
 
 
     </div>
 
-    <div class="bg-zinc-950 h-[6.2rem] mt-[4.2rem] flex content-center items-center justify-center gap-10">
-            <span id="backward" class="scale-[1] bg-zinc-900 rounded-full px-1 text-white hover:bg-sky-700"><i class="ri-skip-back-mini-fill"></i></span>
-            <span id="play" class="bg-zinc-900 rounded-full px-1 text-white hover:bg-sky-700 "><i class="ri-play-fill"></i></span>
-            <span id="forward" class="bg-zinc-900 rounded-full px-1 text-white hover:bg-sky-700"><i class="ri-skip-forward-mini-fill"></i></span>
-        </div>
+    <!-- music control -->
+
+
+
+
+    <div
+        class="bg-zinc-950 flex content-center items-center justify-center h-[5rem] mt-[5rem] gap-6 lg:mt-[7.6rem] lg:gap-[8rem]  ">
+
+
+        <span id="backward" class="scale-[1]  rounded-full px-3 text-white hover:bg-sky-700">
+            <i class="fas fa-backward"></i></span>
+
+        <span id="play" class=" rounded-full px-3 text-white hover:bg-sky-700 ">
+            <i class="fas fa-play"></i></span>
+
+        <span id="forward" class="rounded-full px-3 text-white hover:bg-sky-700">
+
+            <i class="fas fa-forward"></i></span>
+
+
+    </div>
+
+
+
+
+
+
+
 
 
 </body>
